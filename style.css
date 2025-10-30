@@ -674,6 +674,11 @@ b{
     #logo-footer{
         display: none;
     }
+
+    
+    #company-size {
+        width: 270px;
+    }
 }
 
 
