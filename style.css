@@ -36,7 +36,7 @@ h3{
 
 .logonav{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap: 40px;
 }
 
@@ -77,6 +77,12 @@ h3{
     background-color: black;
     font-weight: 600;
 }
+
+.nav_list{
+    display: flex;
+    align-items: center;
+}
+
 
 
 
@@ -223,7 +229,7 @@ span{
 input{
     cursor: pointer;
     padding: 10px;
-    border-radius: 9px;
+    border-radius: 5px;
     border: 1px solid rgb(224 225 225);
 }
 
@@ -237,9 +243,14 @@ input{
 select{
     cursor: pointer;
     padding: 10px;
-    border-radius: 9px;
+    border-radius: 5px;
     border: 1px solid rgb(224 225 225);
 }
+
+textarea{
+    border-radius: 5px;
+}
+
 
 form{
     
@@ -913,6 +924,14 @@ body.dark-theme .img-3{
 }
 
 
+/* body.dark-theme #number-inp,
+body.dark-theme #name-inp,
+body.dark-theme #company-inp,
+body.dark-theme #company-size {
+  width: 225px; 
+} */
+
+
 body.dark-theme .form-details{
     padding: 45.1px;
 }
@@ -931,41 +950,34 @@ body.dark-theme .form-details{
 
 
 
-@media(min-width:600px) and (max-width:1024px){
-     body.dark-theme #company-size {
-        width: 300px;
-    } 
-    body.dark-theme #company-inp{
-        width:300px;
-    }
-  
-    body.dark-theme #name-inp{
-        width:300px 
-    }
-
-    body.dark-theme #number-inp{
-        width: 300px;
-    }
+@media(min-width:600px) and (max-width:1001px){
+    
     body.dark-theme .form-details {
         padding: 80.3px;
     }
+    body.dark-theme #number-inp,
+    body.dark-theme #name-inp{
+        width:265px;
+    }
+    body.dark-theme #company-inp,
+    body.dark-theme #company-size {
+    width: 265px;
+  }
 }
 
 
 
-   body.dark-theme #company-size {
-        width: 225px;
-    } 
-    body.dark-theme #company-inp{
+
+@media(min-width:1004px){
+    body.dark-theme #number-inp,
+    body.dark-theme #name-inp{
         width:225px;
     }
-  
-    body.dark-theme #name-inp{
-        width:225px 
-    }
+    body.dark-theme #company-inp,
+    body.dark-theme #company-size {
+    width: 225px;
+  }
 
-    body.dark-theme #number-inp{
-        width: 225px;
-    }
+}
 
-    /* completed */
+
