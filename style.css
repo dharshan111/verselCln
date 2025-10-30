@@ -556,6 +556,7 @@ b{
 
     .description-box{
         min-width:30px;
+        padding: 20px;
         text-align: center;
         
     }
@@ -572,11 +573,12 @@ b{
     
 
     .content{
-        font-size: 20px;
+        line-height: 20px;
+        font-size: 15px;
         text-align: center;
     }
     .bold{
-        font-size: 20px;
+        font-size: 15px;
     }
     .policy, b{
         font-size: 11px;
