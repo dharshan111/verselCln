@@ -8,6 +8,8 @@ const logo=document.getElementById('logo');
 const hamberg=document.getElementById('hamburger');
 const mainBtns= document.querySelector(".main-btn");
 
+
+
 hamburge_dark_mode.addEventListener("click", () => {
     if(!isopen){
         logo.classList.add('logo-return');

@@ -729,6 +729,10 @@ b{
 
 /* Mobile view */
 @media screen and (max-width: 1001px) {
+
+    
+
+
  
     .logo-return{
         position: relative;
@@ -749,7 +753,7 @@ b{
     background-color: #fff;
     z-index: 100;
 }
-
+  
 
 
 
@@ -792,10 +796,10 @@ b{
 
  .main-btn {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         /* width: 96%; */
         position: fixed;
-        top: 60px;
+        top: 70px;
   }
 
 
@@ -809,10 +813,7 @@ b{
     display: none;
  }
 
- .mobile-navbar-buttons-dark-mode{
-    background-color: #000;
-    color: #fff;
- }
+
 
 
 .navbar_list_visible{
@@ -821,20 +822,9 @@ b{
     height: 100vh;
     position: relative;
     right: 130px;
-    top: 70px;
+    top: 170px;
 }
-.mobile-navbar-buttons{
-    display: flex;
-    flex-direction: column;
-    padding-top: 100px;
-    gap: 5px;
-    position: relative;
-    right: 130px;
-}
- .mobile-navbar-buttons button{
-    /* width: 100%;*/
-    display:none;
-} 
+
   
 
   .btns2{
@@ -842,12 +832,7 @@ b{
   }
 
 
-  body.dark-theme .btns1{
-    color: #fff;
-    background-color: rgb(43, 42, 42);
-    border: none;
-    font-weight: 600;
-}
+
 
 }
 
@@ -855,7 +840,7 @@ b{
 @media(min-width:768px) and (max-width:1001px){
      .btns3, .btns1{
         padding: 12px;
-        width: 96vw;
+        width: 97vw;
   }
 }
 
@@ -999,14 +984,15 @@ body.dark-theme .icons-btns {
 
 body.dark-theme .btns1{
     color: #fff;
-    background-color: black;
+    background-color: #111;
+    border: 1px solid grey;
     border: none;
     font-weight: 600;
 }
 
 body.dark-theme .btns2{
     color: #fff;
-    background-color: black;
+    background-color: #111;
     border: none;
     font-weight: 600;
 }
