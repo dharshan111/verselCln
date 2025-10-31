@@ -81,6 +81,12 @@ h3{
     border: none;
 }
 
+
+
+
+
+
+
 .nav_list{
     display: flex;
     align-items: center;
@@ -479,6 +485,13 @@ b{
     display: none;
 }
 
+
+
+
+.main-btn2{
+    display: none;
+}
+
 @media(min-width:768px) and (max-width:1020px){
     
     .grid-layout {
@@ -737,7 +750,7 @@ b{
 
     
 
-
+    
  
     .logo-return{
         position: relative;
@@ -799,17 +812,46 @@ b{
     
  } 
 
- .main-btn {
-        display: flex;
-        flex-direction: column;
-        /* width: 96%; */
-        position: fixed;
-        top: 70px;
+ .main-btn, .btns3, .btns1 {
+        display: none;
   }
 
-  .btns3, .btns1{
+
+    .main-btn2 button{
+        text-align: center;
+    }     
+
+
+   .main-btn2 {
+        display: flex;
+        flex-direction: column;
+        width: 355px;
+        position: fixed;
+        top: 70px;
+        gap: 10px;
+  }
+    .btns-3{
+        color: #fff;
+        background-color: black;
+        font-weight: 600;
+        border: none;
+    }
+
+    .btns-1{
+        color: black;
+        background-color: #fff;
+        font-weight: 600;
+    }
+
+
+
+  .btns-3, .btns-1{
         padding: 12px;
+        font-size: 15px;
+        font-weight:500;
         width: 92vw;
+        border-radius: 5px;
+        border: 1px solid lightgrey;
   }
 
 
@@ -826,7 +868,7 @@ b{
     height: 100vh;
     position: relative;
     right: 130px;
-    top: 170px;
+    top: 200px;
 }
 
   
@@ -842,11 +884,13 @@ b{
 
 
 @media(min-width:768px) and (max-width:1001px){
-     .btns3, .btns1{
+     .btns-3, .btns-1{
         padding: 12px;
         width: 97vw;
   }
 }
+
+
 
 
 
@@ -1008,6 +1052,23 @@ body.dark-theme .btns3{
     font-weight: 600;
 }
 
+
+
+
+body.dark-theme .btns-1{
+    color: #fff;
+    background-color: #111;
+    border: 1px solid grey;
+    border: none;
+    font-weight: 600;
+}
+
+body.dark-theme .btns-3{
+    color: black;
+    background-color: #fff;
+    border: none;
+    font-weight: 600;
+}
 
 
 body.dark-theme .ada-poda{
