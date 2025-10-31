@@ -6,7 +6,7 @@ const navlist_box=document.getElementById('nav-list');
 const replace_image=document.createElement('img');
 const logo=document.getElementById('logo');
 const hamberg=document.getElementById('hamburger');
-const mainBtns= document.querySelector(".main-btn");
+const mainBtns= document.querySelector(".main-btn2");
 
 
 hamburge_dark_mode.addEventListener("click", () => {
