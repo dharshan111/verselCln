@@ -8,7 +8,7 @@ const logo=document.getElementById('logo');
 const hamberg=document.getElementById('hamburger');
 const mainBtns= document.querySelector(".main-btn");
 
-
+// mainBtns.style.display = "none"
 
 hamburge_dark_mode.addEventListener("click", () => {
     if(!isopen){
