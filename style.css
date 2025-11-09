@@ -662,12 +662,11 @@ b{
         min-width: 144px;
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 25px;
         border: 1px solid rgb(224 225 225);
     }
     .image2 {
         max-width: 140px;
-        margin-top: 30px;
     }
 
 
@@ -760,9 +759,6 @@ b{
 }
 
 
-
-
-/* Mobile view */
 @media screen and (max-width: 1001px) {
 
 
@@ -774,67 +770,75 @@ b{
     }
     
 
-    
- 
-    .logo-return{
+    /* .logo-return{
         position: relative;
-        bottom: 320px;
-    }
-    .hamburger-return{
-        position: relative;
-        bottom: 260px;
-    }
+        bottom: 60px;
+    } */
+
+    /* .hamburger-return{
+        
+        bottom: 270px;
+
+    } */
+
+
 
     header {
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    background-color: #fff;
-    z-index: 100;
-}
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
   
 
-/* Hamburger icon */
-.hamburger{
-    display: flex;
-    align-items: center;
-}
+    /* Hamburger icon */
+    .hamburger{
+        display: flex;
+        align-items: center;
+        position: relative;
 
-.hamburger img{
-    width: 25px;
-    height: 25px;
-    position: relative;
-}
-#hamberg-dark{
-    width: 25px;
-    height: 20px;
-    display: none;
-}
- .nav_list{
-    display: none;
- }
- .nav_list-dark-mode{
-    display: flex;
-    flex-direction: column;
-    background-color: #000000;
-    color: white;
- }
-.navbar-lists{
-    display: none; 
-    color: black;
-}
-.navbar-lists li{  
-    width: 100%;
-}
- .nav_list-visible{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    
- } 
+    }
+
+    .hamburger img{
+        width: 25px;
+        height: 25px;
+        position: fixed;
+        top: 18px;
+        right: 10px;
+        
+    }
+
+
+    #hamberg-dark{
+        width: 25px;
+        height: 20px;
+        display: none;
+    }
+    .nav_list{
+        display: none;
+    }
+    .nav_list-dark-mode{
+        display: flex;
+        flex-direction: column;
+        background-color: #000000;
+        color: white;
+    }
+    .navbar-lists{
+        display: none; 
+        color: black;
+    }
+    .navbar-lists li{  
+        width: 100%;
+    }
+    .nav_list-visible{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+    } 
 
  .main-btn, .btns3, .btns1 {
         display: none;
@@ -901,10 +905,13 @@ b{
     display: none;
   }
 
-
-
-
 }
+
+
+/* Fixed Hamburger Menu CSS */
+
+
+
 
 
 @media(min-width:601px) and (max-width:1001px){

@@ -4,9 +4,10 @@ const navbar_listts=document.getElementById('hideen-navlists');
 let isopen=false;
 const navlist_box=document.getElementById('nav-list');
 const replace_image=document.createElement('img');
-const logo=document.getElementById('logo');
+const logo=document.querySelector('#logo');
 const hamberg=document.getElementById('hamburger');
 const mainBtns= document.querySelector(".main-btn2");
+
 
 
 hamburge_dark_mode.addEventListener("click", () => {
@@ -18,9 +19,7 @@ hamburge_dark_mode.addEventListener("click", () => {
         navbar_listts.classList.add('nav_list-dark-mode');
         navbar_listts.classList.add('navbar_list_visible');
         hamburge_dark_mode.src="images/close.png";
-
         mainBtns.style.display = "flex";
-
         isopen=true;
     }
     else{
@@ -31,8 +30,6 @@ hamburge_dark_mode.addEventListener("click", () => {
         navbar_listts.classList.remove('nav_list-dark-mode');
         navbar_listts.classList.remove('navbar_list_visible');
         hamburge_dark_mode.src="images/menu.png";
-
-
         mainBtns.style.display = "none";
 
 
@@ -48,6 +45,8 @@ hamburge_light_mode.addEventListener('click',()=>{
         navlist_box.classList.add('nav_list-visible');
         navbar_listts.classList.add('navbar_list_visible');
         hamburge_light_mode.src="images/close.png"
+
+
 
         mainBtns.style.display = "flex";
 
