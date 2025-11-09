@@ -122,7 +122,7 @@ h3{
 }
 
 .box1, .box2 {
-  border: 1px solid  rgb(224 225 225);
+  border: 1px solid rgb(233 233 233);
   height: 100px;
   width: 100px;
   display: flex;
@@ -147,7 +147,7 @@ h3{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    border: 1px solid rgb(224 225 225);
+    border: 1px solid rgb(233 233 233);
 }
 
 .para-head{
@@ -214,7 +214,7 @@ span{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    border: 1px solid rgb(224 225 225);
+    border: 1px solid rgb(233 233 233);
 }
 
 
@@ -225,7 +225,7 @@ span{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    border: 1px solid rgb(224 225 225);
+    border: 1px solid rgb(233 233 233);
 }
 
 .image3{
@@ -237,7 +237,7 @@ span{
 .form-details{
     padding: 45px 62px 45px 62px;
     gap: 30px;
-    border: 1px solid rgb(224 225 225);
+    border: 1px solid rgb(233 233 233);
 }
 
 .overall-box{
@@ -248,7 +248,7 @@ input{
     cursor: pointer;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid rgb(224 225 225);
+    border: 1px solid rgb(233 233 233);
 }
 
 .doubleinp{
@@ -262,7 +262,7 @@ select{
     cursor: pointer;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid rgb(224 225 225);
+    border: 1px solid rgb(233 233 233);
 }
 
 textarea{
@@ -316,7 +316,7 @@ label{
     padding: 10px;
     height: 220px;
     border-radius: 10px;
-    border: 1px solid rgb(224 225 225);
+    border: 1px solid rgb(233 233 233);
 
 }
 
@@ -348,7 +348,7 @@ label{
 }
 
 .bo1 ,.bo2{
-  border: 1px solid  rgb(224 225 225);
+  border: 1px solid rgb(233 233 233);
   height: 100px;
   width: 100px;
   display: flex;
@@ -427,7 +427,7 @@ footer{
 
 .ada-poda{
     padding: 5px;
-    border: 1px solid rgb(224 225 225);
+    border: 1px solid rgb(233 233 233);
     
 }
 
@@ -445,7 +445,7 @@ footer{
     padding: 10px;
     height: 220px;
     border-radius: 10px;
-    border: 1px solid rgb(224 225 225);
+    border: 1px solid rgb(233 233 233);
 }
 
 .para{
@@ -566,7 +566,7 @@ b{
 
 
     .box1, .box2 {
-        border: 1px solid rgb(224 225 225);
+        border: 1px solid rgb(233 233 233);
         height: 65px;
         width: 65px;
         display: flex;
@@ -574,7 +574,7 @@ b{
     }
 
     .bo1, .bo2 {
-        border: 1px solid rgb(224 225 225);
+        border: 1px solid rgb(233 233 233);
         height: 65px;
         width: 65px;
         display: flex;
@@ -663,7 +663,7 @@ b{
         display: flex;
         flex-direction: column;
         gap: 25px;
-        border: 1px solid rgb(224 225 225);
+        border: 1px solid rgb(233 233 233);
     }
     .image2 {
         max-width: 140px;
