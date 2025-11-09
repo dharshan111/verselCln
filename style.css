@@ -328,7 +328,7 @@ label{
     padding: 10px;
     border-radius: 20px;
     margin-bottom: 40px;
-    background-color:hsla(272,51%,54%,1);
+    background-color:#2966e7;
 }
 
 
@@ -1069,7 +1069,7 @@ body.dark-theme .ham-span
 }
 
 body.dark-theme .submit-btn {
-  background-color: #921de0;
+  background-color: #2966e7;
   color: #fff;
 }
 
